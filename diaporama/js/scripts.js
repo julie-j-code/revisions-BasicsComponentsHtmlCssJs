@@ -11,6 +11,12 @@ window.onload = () => {
 
     // On récupère un tableau contenant la liste des diapos
     slides = Array.from(elements.children)
+    console.log(slides);
+
+    // Test sur le tableau contenant la liste des div de class element
+    // messlides = document.querySelectorAll(".element");
+    // Le proto est différents, ici il s'agit d'un __proto__: NodeList
+    // console.log(messlides);
 
     // On calcule la largeur visible du diaporama
     slideWidth = diapo.getBoundingClientRect().width

@@ -1,2 +1,3 @@
 # Modal-Window
-On crée une fenêtre modale
+On crée une fenêtre modale sans framework
+
